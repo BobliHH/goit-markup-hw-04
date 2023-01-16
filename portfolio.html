@@ -24,7 +24,7 @@
           ><span class="logo-web">Web</span>Studio</a
         >
         <nav>
-          <ul class="main-nav-list unstiled-list">
+          <ul class="main-nav-list unstyled-list">
             <li class="main-nav-item">
               <a class="main-nav-link link" href="index.html">Studio</a>
             </li>
@@ -36,15 +36,21 @@
             </li>
           </ul>
         </nav>
-        <ul class="contact-list header-contact-list unstiled-list">
+        <ul class="contact-list header-contact-list unstyled-list">
           <li class="contact-list-item">
-            <a class="contact-nav-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a class="contact-nav-link link" href="mailto:info@devstudio.com">
+              <svg class="mail-icon">
+                <use href="./images/symbol-defs.svg#icon-mail"></use>
+              </svg>  
+            info@devstudio.com</a
             >
           </li>
           <li class="contact-list-item">
-            <a class="contact-nav-link link" href="tel:+12127724150"
-              >+1 212-772-4150</a
+            <a class="contact-nav-link link" href="tel:+12127724150">
+              <svg class="phone-icon">
+                <use href="./images/symbol-defs.svg#icon-phone"></use>
+              </svg>
+              +1 212-772-4150</a
             >
           </li>
         </ul>
@@ -54,7 +60,7 @@
       <section class="filter-section">
         <div class="container">
           <h2 hidden>Filters</h2>
-          <ul class="filter-button-list unstiled-list">
+          <ul class="filter-button-list unstyled-list">
             <li class="filter-button-list-item">
               <button class="filter-button" type="button">All</button>
             </li>
@@ -76,7 +82,7 @@
       <section class="portofolio-hero-section">
         <div class="container section">
           <h2 hidden>Expanded list</h2>
-          <ul class="portofolio-list unstiled-list">
+          <ul class="portofolio-list unstyled-list">
             <li class="portofolio-list-item">
               <img
                 src="./images/portofolio01.jpg"
@@ -193,11 +199,12 @@
     </main>
     <footer class="footer-section">
       <div class="container">
+      <div class="footer-left-side">
         <a class="logo footer-logo link" href="index.html"
           ><span class="logo-web">Web</span>Studio</a
         >
         <address>
-          <ul class="contact-list unstiled-list">
+          <ul class="contact-list unstyled-list">
             <li class="footer-contact-list-item maps">
               <a
                 class="maps-link link"
@@ -222,6 +229,40 @@
           </ul>
         </address>
       </div>
+      <div class="social-section">
+        <h3 class="social-footer">Find us on</h3>
+          <ul class="unstyled-list social-footer-list">
+            <li>
+              <a href="#" target="_blank" class="social-footer-link">
+                <svg class="social-icon-footer">
+                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="social-footer-link">
+                <svg class="social-icon-footer">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="social-footer-link">
+                <svg class="social-icon-footer">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="social-footer-link">
+                <svg class="social-icon-footer">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+      </div>
+    </div>
     </footer>
   </body>
 </html>
